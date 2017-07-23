@@ -14,6 +14,6 @@ const Main = () => (
       <Route path='/map' component={SimpleMap}/>
     </Switch>
   </main>
-)
+);
 
 export default Main

@@ -19,10 +19,10 @@ class MyMenu extends Component {
   render () {
     return (
       <Menu outerContainerId={"outer-container"} pageWrapId={"page-wrap"} >
-        <MyMenuItem fa="fa-home" menuHref="/" menuName="Home" />
-        <MyMenuItem fa="fa-map" menuHref="/map" menuName="Map" />
-        <MyMenuItem fa="fa-camera" menuHref="/image-class" menuName="Imager " />
-        <MyMenuItem fa="fa-info" menuHref="/about" menuName="About" />
+        <MyMenuItem fa="fa-home" menuHref="#/" menuName="Home" />
+        <MyMenuItem fa="fa-map" menuHref="#/map" menuName="Map" />
+        <MyMenuItem fa="fa-camera" menuHref="#/image-class" menuName="Imager " />
+        <MyMenuItem fa="fa-info" menuHref="#/about" menuName="About" />
       </Menu>
     );
   }
