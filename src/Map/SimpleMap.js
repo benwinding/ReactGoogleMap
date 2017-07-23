@@ -20,14 +20,16 @@ export default class SimpleMap extends Component {
 
   render() {
     return (
-      <GoogleMap
-        bootstrapURLKeys={{key: gmapsApiKey}}
-        center={this.props.center}
-        zoom={this.props.zoom}
-      >
-        <MyGreatPlace lat={-34.955413} lng={138.6007} text={'1'} /* Kreyser Avrora */ />
-        <MyGreatPlace {...this.props.greatPlaceCoords} text={'2'} /* road circle */ />
-      </GoogleMap>
+      <div style={{width:"100%", height:"50vh"}} >
+        <GoogleMap
+          bootstrapURLKeys={{key: gmapsApiKey}}
+          center={this.props.center}
+          zoom={this.props.zoom}
+        >
+          <MyGreatPlace lat={-34.955413} lng={138.6007} text={'1'} /* Kreyser Avrora */ />
+          <MyGreatPlace {...this.props.greatPlaceCoords} text={'2'} /* road circle */ />
+        </GoogleMap>
+      </div>
     );
   }
 }
