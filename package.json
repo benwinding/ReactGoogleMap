@@ -15,7 +15,7 @@
   "devDependencies": {
     "gh-pages": "^1.0.0"
   },
-  "homepage": "http://benwinding.github.io/ReactGoogleMap",
+  "homepage": "https://benwinding.github.io/RecyclingApp-React/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
