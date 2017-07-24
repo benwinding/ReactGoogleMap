@@ -1,6 +1,6 @@
 ### Recylr!
 
-A little demo of a React.js web-app
+A little demo of a React.js web-app [Live Demo!](https://benwinding.github.io/RecyclingApp-React)
 
 ### Features
 - Home page, about page
