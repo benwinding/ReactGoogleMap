@@ -14,3 +14,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Google maps api
 - font-awesome icons
 - html, css
+
+### Buzzwords
+- Cloud
+- Software as a service
+- Internet of Things
+- Blockchain
+- Deep Learning
+- Making the world a better place
